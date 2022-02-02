@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LMAPS</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Preference Titles -->
+    <string name="settings_header">Settings</string>
+
+    <!-- Messages Preferences -->
+    <string-array name="favLandmark_title">
+        <item>Statues</item>
+        <item>Monuments</item>
+        <item>Bridges</item>
+        <item>Churches</item>
+    </string-array>
+    <string name="reply_title">Measurement</string>
+
+    <string-array name="measurement_systems">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+</resources>

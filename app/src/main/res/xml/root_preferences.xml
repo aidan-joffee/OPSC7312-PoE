@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings_header">
+
+        <ListPreference
+            app:defaultValue="Metric"
+            app:entries="@array/measurement_systems"
+            app:entryValues="@array/measurement_systems"
+            app:key="measureSystem"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Statues"
+            app:title="Landmark Type"
+            app:key="favouriteLandmark"
+            app:entries="@array/favLandmark_title"
+            app:entryValues="@array/favLandmark_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:text="TEST"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDeleteFavLandmark"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_delete"
+        android:layout_toStartOf="@id/btnFavLandmarkDirections" />
+
+    <Button
+        android:id="@+id/btnFavLandmarkDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getFavDirections"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:text="Directions" />
+
+
+
+</RelativeLayout>
